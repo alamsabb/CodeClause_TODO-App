@@ -17,7 +17,8 @@
         <com.google.android.material.checkbox.MaterialCheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:buttonTint="#673AB7"
+            android:buttonTint="#00C4FF"
+            app:buttonTint="#00C4FF"
             android:id="@+id/checkbox"
             android:text="task"
             android:paddingStart="10dp"

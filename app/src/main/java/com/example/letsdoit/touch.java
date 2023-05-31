@@ -30,6 +30,7 @@ public class touch extends ItemTouchHelper.SimpleCallback {
         if(direction==ItemTouchHelper.RIGHT){
             AlertDialog.Builder builder=new AlertDialog.Builder(adapter.getContext());
             builder.setTitle("Delete");
+            builder.setCancelable(false);
             builder.setMessage("Are you sure ?");
             builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
                 @Override
